@@ -1,0 +1,18 @@
+{
+  "posts": [
+    {
+      "post": "Hello World",
+      "id": 1
+    },
+    {
+      "post": "Hey what's good, Not much how are you?",
+      "userId": "105474839985188006003",
+      "id": 2
+    },
+    {
+      "post": "Nothing much",
+      "userId": "105474839985188006003",
+      "id": 3
+    }
+  ]
+}
