@@ -5,6 +5,7 @@ import PostEdit from './posts/PostEdit';
 import PostDelete from './posts/PostDelete';
 import PostList from './posts/PostList';
 import PostShow from './posts/PostShow';
+import CommentDelete from './comments/CommentDelete';
 import Header from './Header';
 import history from '../history';
 
@@ -20,6 +21,7 @@ const App = () => {
                         <Route exact path="/posts/edit/:id" component={PostEdit} />
                         <Route exact path="/posts/delete/:id" component={PostDelete} />
                         <Route exact path="/posts/:id" component={PostShow} />
+                        <Route exact path="/comments/delete/:id" component={CommentDelete} />
                     </Switch>
                 </div>
             </Router>

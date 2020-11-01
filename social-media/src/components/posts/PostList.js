@@ -27,6 +27,7 @@ class PostList extends Component {
                     <i className="large middle aligned icon camera" />
                     <div className="content">
                         <Link to={`/posts/${post.id}`}>
+                            <p>{post.userId}</p>
                             {post.post}
                         </Link>
                     </div>

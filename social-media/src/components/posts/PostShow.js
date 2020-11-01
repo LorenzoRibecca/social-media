@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { fetchPost } from '../../actions';
+import CommentShow from '../comments/CommentShow';
 
 class PostShow extends Component {
     componentDidMount() {
@@ -13,11 +14,18 @@ class PostShow extends Component {
             return <div>Loading...</div>;
         }
 
-        const { post } = this.props.post;
+        const { post, userId } = this.props.post;
 
         return(
             <div>
-                <h4>{post}</h4>
+                <div>
+                    <h4>{userId}</h4>
+                    <h1>{post}</h1>    
+                </div>
+                <div className="ui hidden divider"></div>
+                <div>
+                    <CommentShow />
+                </div>
             </div>
         );
     }

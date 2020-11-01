@@ -1,18 +1,40 @@
 {
   "posts": [
     {
-      "post": "Hello World",
+      "post": "lololol",
+      "userId": "105474839985188006003",
+      "id": 4,
+      "comment": "hi"
+    },
+    {
+      "post": "testing comments",
+      "userId": "105474839985188006003",
+      "comments": "testing",
+      "id": 5
+    },
+    {
+      "post": "A post to test out comments",
+      "userId": "105474839985188006003",
+      "id": 6
+    },
+    {
+      "post": "Post to test comments",
+      "userId": "105474839985188006003",
+      "id": 7
+    }
+  ],
+  "comments": [
+    {
+      "comment": "Ok",
+      "userId": "105474839985188006003",
+      "path": "/posts/7",
       "id": 1
     },
     {
-      "post": "Hey what's good, Not much how are you?",
+      "comment": "Testing multiple comments",
       "userId": "105474839985188006003",
+      "path": "/posts/7",
       "id": 2
-    },
-    {
-      "post": "Nothing much",
-      "userId": "105474839985188006003",
-      "id": 3
     }
   ]
 }
